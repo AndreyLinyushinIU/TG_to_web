@@ -33,3 +33,7 @@ If any change was applied to models.py files, run the following:
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
+
+When rebuilt react part: 
+npm run build
+python3 manage.py collectstatic

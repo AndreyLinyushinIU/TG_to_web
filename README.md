@@ -28,3 +28,8 @@ get the list of processes acquiring this port and kill them
 sudo ss -lptn 'sport = :5432'
 sudo kill {process id}
 ```
+If any change was applied to models.py files, run the following:
+```shell
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
